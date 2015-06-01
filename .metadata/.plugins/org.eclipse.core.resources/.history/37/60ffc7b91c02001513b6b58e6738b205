@@ -1,0 +1,14 @@
+package challenge1;
+
+import java.util.Scanner;
+
+public class DaysInMonth {
+	
+	public static void main(String args[]){
+		System.out.println("Enter the month");
+		Scanner in = new Scanner(System.in);
+		String month = in.nextLine();
+		System.out.println(month);
+	}
+
+}

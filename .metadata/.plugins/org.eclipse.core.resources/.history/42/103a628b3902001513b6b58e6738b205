@@ -1,0 +1,13 @@
+package challenge7;
+
+public class Armstrong {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

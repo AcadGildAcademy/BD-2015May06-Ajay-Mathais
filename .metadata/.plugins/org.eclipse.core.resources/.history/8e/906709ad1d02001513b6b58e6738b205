@@ -1,0 +1,23 @@
+package challenge1;
+
+import java.util.Scanner;
+
+public class DaysInMonth {
+	
+	public static void main(String args[]){
+		Scanner in = new Scanner(System.in);
+		while(true)
+		{
+			System.out.println("Enter the month or enter X to exit");
+			String month = in.nextLine();
+			if(month.equals("X"))
+				break;
+			switch(month){
+				case "January":
+					System.out.println("31 days!");
+					break;
+			}
+		}
+	}
+
+}

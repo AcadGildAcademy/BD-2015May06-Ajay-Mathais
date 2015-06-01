@@ -1,0 +1,27 @@
+package challenge2;
+
+import java.util.Scanner;
+
+public class Grade {
+	
+	public static void main(String args[]){
+		Scanner in = new Scanner(System.in);
+		while(true)
+		{
+			String grade = in.nextLine();
+			switch(grade){
+				case "A":
+					break;
+				case "B":
+					break;
+				case "C":
+					break;
+				case "D":
+					break;
+				
+			}
+		}
+		
+	}
+
+}
