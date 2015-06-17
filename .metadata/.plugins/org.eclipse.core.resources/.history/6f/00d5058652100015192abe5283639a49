@@ -1,0 +1,26 @@
+package classObjectChallenge2;
+
+public class Area {
+
+	/**
+	 * @param args
+	 */
+	double radius;
+	double area;
+	
+	public Area(int radius){
+		this.radius = radius;
+		area = 3.14 * radius * radius;
+	}
+	
+	public double getArea(){
+		return area;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Area circle = new Area(100);
+		System.out.println(circle.area);
+	}
+
+}

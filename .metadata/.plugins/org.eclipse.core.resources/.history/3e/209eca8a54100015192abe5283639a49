@@ -1,0 +1,13 @@
+package methodOverloading;
+
+public class Square {
+	
+	public Square(){
+		super();
+	}
+	
+	public Square(double side){
+		super(side);
+	}
+
+}

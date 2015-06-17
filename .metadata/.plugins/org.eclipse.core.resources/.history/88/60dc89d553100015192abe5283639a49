@@ -1,0 +1,13 @@
+package inheritence;
+
+public class Triangle extends Rectangle{
+
+	public Triangle(double base, double altitude) {
+		super(base, altitude);
+	}
+	
+	public double area(){
+		return super.area()/2;
+	}
+
+}

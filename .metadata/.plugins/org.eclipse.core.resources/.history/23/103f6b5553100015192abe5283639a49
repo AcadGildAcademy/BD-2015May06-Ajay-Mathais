@@ -1,0 +1,10 @@
+package inheritence;
+
+public class Triangle extends Rectangle{
+
+	public Triangle(double base, double altitude) {
+		super(base, altitude);
+	}
+	
+
+}
