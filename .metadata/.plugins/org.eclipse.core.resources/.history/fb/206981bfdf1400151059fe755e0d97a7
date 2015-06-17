@@ -1,0 +1,37 @@
+package threads;
+
+public class Threader extends Thread{
+
+	/**
+	 * @param args
+	 */
+	String name;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Threader a = new Threader();
+		a.setPriority(MAX_PRIORITY);
+		a.name = "A";
+		
+		Threader b = new Threader();
+		b.setPriority(MIN_PRIORITY);
+		b.name = "B";
+		
+		Threader c = new Threader();
+		c.setPriority(NORM_PRIORITY);
+		c.name = "C";
+		
+		a.start();
+		b.start();
+		c.start();
+		
+		
+	}
+	
+	
+	public void run(){
+		while(1)
+			System.out.println("Now inside " + name);
+	}
+
+}

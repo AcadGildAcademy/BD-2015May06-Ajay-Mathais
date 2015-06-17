@@ -6,4 +6,17 @@
 <fullyQualifiedTypeName name="inheritence.Triangle"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="methodOverloading.Rectangle"/>
+<fullyQualifiedTypeName name="abs.ElectricBassGuitar"/>
+<fullyQualifiedTypeName name="abs.ElectricGuitar"/>
+<fullyQualifiedTypeName name="abs.StringedInstrument"/>
+<fullyQualifiedTypeName name="interfaces.Circle"/>
+<fullyQualifiedTypeName name="interfaces.Rectangle"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="except.NumberFormatException"/>
+<fullyQualifiedTypeName name="threads.Counting"/>
+<fullyQualifiedTypeName name="java.util.AbstractList"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
 </qualifiedTypeNameHistroy>

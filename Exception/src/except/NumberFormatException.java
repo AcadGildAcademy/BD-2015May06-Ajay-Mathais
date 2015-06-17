@@ -1,0 +1,20 @@
+package except;
+
+public class NumberFormatException {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String abc = "13r57";
+		try{
+			int a = Integer.parseInt(abc);
+		}
+		catch(NumberFormatException ex){
+			System.out.println("Number Format Exception");
+		}
+
+	}
+
+}

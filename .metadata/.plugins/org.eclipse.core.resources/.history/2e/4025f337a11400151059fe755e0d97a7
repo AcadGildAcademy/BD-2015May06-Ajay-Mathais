@@ -1,0 +1,17 @@
+package arrays;
+
+public class ReverseOfArray {
+
+	/**
+	 * @param args
+	 */
+	
+	public int[] re
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		runtime.getruntime().exec("cls");
+	}
+
+}

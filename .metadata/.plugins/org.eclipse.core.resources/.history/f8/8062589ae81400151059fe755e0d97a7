@@ -1,0 +1,27 @@
+package threads;
+
+public class Counting extends Thread {
+
+	/**
+	 * @param args
+	 * @throws InterruptedException 
+	 */
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		Counting child = new Counting();
+		System.out.println("Created thread");
+		child.start();
+		while(child.isAlive()){
+			System.out.println("Main thread will be alive till the child thread is live");
+			child.sleep(30000);
+		}
+		
+	}
+	
+	public void run(){
+		for(int i = 0; i <= 10; i++)
+			System.out.println("Printing the count " + i);
+		
+	}
+
+}

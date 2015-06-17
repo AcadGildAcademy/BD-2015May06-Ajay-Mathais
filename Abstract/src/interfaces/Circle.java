@@ -1,0 +1,22 @@
+package interfaces;
+
+public class Circle implements Shape {
+
+	public double radius;
+	@Override
+	public void draw() {
+		System.out.println("Drawing a Circle");
+
+	}
+
+	@Override
+	public double getArea() {
+		// TODO Auto-generated method stub
+		return 3.14 * getRadius() * getRadius();
+	}
+	
+	public double getRadius(){
+		return radius;
+	}
+
+}

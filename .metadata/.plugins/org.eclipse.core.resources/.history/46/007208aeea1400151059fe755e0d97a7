@@ -1,0 +1,19 @@
+package collections;
+
+import java.util.Set;
+import java.util.HashSet;
+
+public class Hashset {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Set<Integer> set = new HashSet<Integer>();
+		set.
+
+	}
+
+}

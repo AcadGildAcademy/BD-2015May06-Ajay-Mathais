@@ -1,9 +1,0 @@
-package challenge1;
-
-public class DaysInMonth {
-	
-	public static void main(String args[]){
-		System.out.println("fef");
-	}
-
-}

@@ -1,0 +1,40 @@
+package arrays;
+
+public class SortAndInsert {
+
+	/**
+	 * @param args
+	 */
+	
+	public static void sort(int [] array){
+		for(int i = 0; i < array.length; i++){
+			for(int j = i; j < array.length; j++){
+				if(array[i] > array[j]){
+					int temp = array[i];
+					array[i] =  array[j];
+					array[j] = temp;
+				}
+			}
+		}
+		System.out.println("Sorted Array");
+		printAll(array);
+		
+		
+	}
+	
+	public static void printAll(int[] array){
+		for(int i = 0; i < array.length; i++)
+			System.out.print(array[i]+" ");
+		System.out.println();
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] array = {8, 6, 5, 2, 4, -7, -2, -3, 0, -9};
+		System.out.println("Current Array");
+		printAll(array);
+		
+	}
+
+}
